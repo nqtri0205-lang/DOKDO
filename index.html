@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dokdo — Trade Route Helper</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-light">
+  <div class="container py-4">
+    <header class="mb-4 text-center">
+      <h1 class="mb-2">🏝️ Dokdo — Trade Route Helper</h1>
+      <p class="lead">Chọn mặt hàng để xem giá mua/bán theo đảo và route có lời</p>
+    </header>
+
+    <!-- Controls -->
+    <section class="card shadow-sm mb-4">
+      <div class="card-header bg-info text-dark">
+        <h2 class="h5 mb-0">⚙️ Bộ lọc</h2>
+      </div>
+      <div class="card-body row g-3 align-items-center">
+        <div class="col-md-4">
+          <label for="itemSelect" class="form-label">Chọn mặt hàng:</label>
+          <select id="itemSelect" class="form-select"></select>
+        </div>
+        <div class="col-md-4">
+          <label for="minProfit" class="form-label">Lọc tối thiểu lãi (vàng):</label>
+          <input id="minProfit" type="number" value="1" min="0" step="1" class="form-control" />
+        </div>
+        <div class="col-md-4 d-grid">
+          <button id="refreshBtn" class="btn btn-primary mt-4">🔄 Làm mới</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Content -->
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="card shadow-sm">
+          <div class="card-header bg-warning text-dark">
+            <h2 class="h5 mb-0">💰 Giá theo đảo</h2>
+          </div>
+          <div class="card-body">
+            <div id="tableWrap">Đang tải dữ liệu...</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card shadow-sm">
+          <div class="card-header bg-success text-white">
+            <h2 class="h5 mb-0">📈 Best Buy / Best Sell</h2>
+          </div>
+          <div class="card-body">
+            <div id="bestInfo" class="mb-3"></div>
+            <h3 class="h6">🚢 Routes có lời</h3>
+            <div id="routes"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="text-center mt-4">
+      <small class="text-muted">
+        Ghi chú: "Buy" = lấy hàng từ đảo lên thuyền (đảo → thuyền).  
+        "Sell" = bán từ thuyền xuống đảo (thuyền → đảo).
+      </small>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

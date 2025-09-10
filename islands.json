@@ -1,0 +1,24 @@
+[
+  {
+    "name": "2PARK",
+    "items": {
+      "ca": { "buy": 5, "sell": 4 },
+      "go": { "buy": 44, "sell": 35 },
+      "da": { "buy": 128, "sell": 102 },
+      "bac": { "buy": 480, "sell": 384 },
+      "vang": { "buy": 2400, "sell": 1920 },
+      "kimcuong": { "buy": 120, "sell": 110 }
+    }
+  },
+  {
+    "name": "LunarBlade",
+    "items": {
+      "ca": { "buy": 6, "sell": 4 },
+      "go": { "buy": 36, "sell": 28 },
+      "da": { "buy": 110, "sell": 88 },
+      "bac": { "buy": 480, "sell": 384 },
+      "vang": { "buy": 2100, "sell": 1680 },
+      "kimcuong": { "buy": 130, "sell": 125 }
+    }
+  }
+]

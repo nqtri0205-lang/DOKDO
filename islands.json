@@ -21,11 +21,56 @@
       "kimcuong": { "buy": 130, "sell": 125 }
     }
   },
-"name": "Crocodile",
+  {
+    "name": "Crocodile",
     "items": {
       "ca": { "buy": 6, "sell": 4 },
       "go": { "buy": 36, "sell": 35 },
       "da": { "buy": 110, "sell": 102 },
+      "bac": { "buy": 480, "sell": 384 },
+      "vang": { "buy": 2100, "sell": 1680 },
+      "kimcuong": { "buy": 20000, "sell": 16000 }
+    }
+  },
+  {
+    "name": "Carter",
+    "items": {
+      "ca": { "buy": 6, "sell": 4 },
+      "go": { "buy": 36, "sell": 28 },
+      "da": { "buy": 110, "sell": 88 },
+      "bac": { "buy": 480, "sell": 384 },
+      "vang": { "buy": 2100, "sell": 1680 },
+      "kimcuong": { "buy": 20000, "sell": 16000 }
+    }
+  },
+  {
+    "name": "The Tower",
+    "items": {
+      "ca": { "buy": 5, "sell": 4 },
+      "go": { "buy": 44, "sell": 35 },
+      "da": { "buy": 128, "sell": 102 },
+      "bac": { "buy": 480, "sell": 384 },
+      "vang": { "buy": 2400, "sell": 1920 },
+      "kimcuong": { "buy": 22000, "sell": 17600 }
+    }
+  },
+  {
+    "name": "WINE",
+    "items": {
+      "ca": { "buy": 5, "sell": 4 },
+      "go": { "buy": 40, "sell": 32 },
+      "da": { "buy": 120, "sell": 86 },
+      "bac": { "buy": 410, "sell": 328 },
+      "vang": { "buy": 2400, "sell": 1920 },
+      "kimcuong": { "buy": 24000, "sell": 19200 }
+    }
+  },
+    {
+    "name": "DUNKIN",
+    "items": {
+      "ca": { "buy": 6, "sell": 4 },
+      "go": { "buy": 36, "sell": 28 },
+      "da": { "buy": 110, "sell": 88 },
       "bac": { "buy": 480, "sell": 384 },
       "vang": { "buy": 2100, "sell": 1680 },
       "kimcuong": { "buy": 20000, "sell": 16000 }

@@ -18,7 +18,7 @@
       "da": { "buy": 110, "sell": 88 },
       "bac": { "buy": 480, "sell": 384 },
       "vang": { "buy": 2100, "sell": 1680 },
-      "kimcuong": { "buy": 130, "sell": 125 }
+      "kimcuong": { "buy": 20000, "sell": 16000 }
     }
   },
   {
@@ -75,6 +75,5 @@
       "vang": { "buy": 2100, "sell": 1680 },
       "kimcuong": { "buy": 20000, "sell": 16000 }
     }
-  },
+  }
 ]
-

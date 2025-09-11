@@ -1,4 +1,3 @@
-// script.js
 let islands = [];
 const itemSelect = document.getElementById('itemSelect');
 const tableWrap = document.getElementById('tableWrap');
@@ -18,11 +17,14 @@ const ITEM_META = {
   kimcuong: { icon: '💎', label: 'Kim cương' }
 };
 
-// Load dữ liệu
+// Load dữ liệu JSON
 async function loadData() {
   try {
-    const resp = await fetch('./islands.json');
+    // Trên GitHub Pages: dùng đường dẫn tương đối
+    const resp = await fetch('islands.json');
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     islands = await resp.json();
+
     populateItemList();
     renderLegend();
     render();

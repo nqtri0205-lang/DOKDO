@@ -21,7 +21,7 @@ const ITEM_META = {
 // Load dữ liệu
 async function loadData() {
   try {
-    const resp = await fetch('islands.json');
+    const resp = await fetch('./islands.json');
     islands = await resp.json();
     populateItemList();
     renderLegend();

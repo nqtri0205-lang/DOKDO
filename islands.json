@@ -65,7 +65,7 @@
       "kimcuong": { "buy": 24000, "sell": 19200 }
     }
   },
-    {
+  {
     "name": "DUNKIN",
     "items": {
       "ca": { "buy": 6, "sell": 4 },
@@ -77,3 +77,4 @@
     }
   }
 ]
+
